@@ -1,0 +1,40 @@
+fecm0100:[67, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,500', '5,500.00']
+fecm0100:[68, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[8]', '50,000', '50,000.00']
+fecm0100:[69, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[9]', '5,000', '5,000.00']
+fecm0100:[90, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,405', '5,405.00']
+
+fecm0100:[67, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,500', '5,500.00']
+fecm0100:[68, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[8]', '50,000', '50,000.00']
+fecm0100:[69, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[9]', '5,000', '5,000.00']
+fecm0100:[90, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,405', '5,405.00']
+
+fecm0100:[67, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,500', '5,500.00']
+fecm0100:[68, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[8]', '50,000', '50,000.00']
+fecm0100:[69, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[9]', '5,000', '5,000.00']
+fecm0100:[90, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,405', '5,405.00']
+
+fecm0100:[67, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,500', '5,500.00']
+fecm0100:[68, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[8]', '50,000', '50,000.00']
+fecm0100:[69, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[9]', '5,000', '5,000.00']
+fecm0100:[90, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,405', '5,405.00']
+
+fecm0100:[67, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,500', '5,500.00']
+fecm0100:[68, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[8]', '50,000', '50,000.00']
+fecm0100:[69, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[9]', '5,000', '5,000.00']
+fecm0100:[90, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,405', '5,405.00']
+
+fecm0100:[67, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,500', '5,500.00']
+fecm0100:[68, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[8]', '50,000', '50,000.00']
+fecm0100:[69, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[9]', '5,000', '5,000.00']
+fecm0100:[90, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,405', '5,405.00']
+
+fecm0100:[67, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,500', '5,500.00']
+fecm0100:[68, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[8]', '50,000', '50,000.00']
+fecm0100:[69, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[9]', '5,000', '5,000.00']
+fecm0100:[90, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,405', '5,405.00']
+
+fecm0100:[67, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,500', '5,500.00']
+fecm0100:[68, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[8]', '50,000', '50,000.00']
+fecm0100:[69, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[9]', '5,000', '5,000.00']
+fecm0100:[90, 'xpath', '//*[@id="tabulator-table"]/div[2]/div/div/div[10]', '5,405', '5,405.00']
+

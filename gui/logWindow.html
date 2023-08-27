@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./all.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./customTool.css') }}">
+    <script src="{{ url_for('static', filename='./popper.js') }}"></script>
+    <script src="{{ url_for('static', filename='./jQuery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='./bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='./ajax.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='./ajax.js') }}"></script> -->
+</head>
+
+<body>
+    <div class="font-monospace"><!-- 待補充響應式設計 -->
+        <div class="mx-0 row w-100">
+            <div class="col">
+                <div class="row  mt-4 mb-2 justify-content-center">
+                    <div class="col-8">
+                        <div class="item">
+                            <h1 id="test" class="fs-4 fw-bolder text-center">log</h1>
+                        </div>
+                    </div>
+                </div>
+                <div  class="row mt-4 mb-1 justify-content-center" >
+                    <div class="col-8 justify-content-center rounded border border-primary p-0" id="logBorder" style="overflow: hidden; height: 28rem;">
+                        <textarea class="border border-0 text-star w-100 hidefocus" style="resize:none; height: 28rem;" id="logArea"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.token = '{{ token }}';
+        const logElement = document.getElementById('logArea');
+        let getLogText = new Ajax("/ask/getLogText", "POST",function(response){
+            console.log(`Get Response`);
+            let logList = response.result;
+            console.log(`Get LogText = ${logList}`);
+            for(let log of logList){
+                logElement.textContent += `${log}\n`;
+                logElement.scrollTop = logElement.scrollHeight;
+            }
+        });
+    
+        
+        $(document).ready(getLogText.unStopInterval.bind(getLogText));
+        $(logElement).focus(()=>{
+            $(`#logBorder`).addClass(`likefocus`);
+        });
+        $(logElement).focusout(()=>{
+            $(`#logBorder`).removeClass(`likefocus`);
+        });
+        $(`#test`).on("click",getLogText.doAjax.bind(getLogText));
+    </script>
+</body>
+</html>

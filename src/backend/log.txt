@@ -1,0 +1,2442 @@
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text 程式錯誤！
+File "C:\Users\david_lin\AppData\Local\Programs\Python\Python311\Lib\site-packages\reportlab\platypus\paraparser.py", line 2779, in _syntax_error: [ValueError] ("\nparagraph text '<para># \\u83ef\\u5357\\u7522\\u7269\\u4fdd\\u96aa\\u80a1\\u4efd\\u6709\\u9650\\u516c\\u53f8<br>\\u8ca1\\u52d9\\u7cfb\\u7d71\\u512a\\u5316\\u5c08\\u6848<br><br><br><br>AR-S01_\\u61c9\\u6536\\u7968\\u64da<br>\\u4f7f\\u7528\\u8005\\u9a57\\u6536\\u6e2c\\u8a66\\u5831\\u544a</para>' caused exception paraparser: syntax error: No content allowed in br tag",)
+
+
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text 程式錯誤！
+File "C:\Users\david_lin\AppData\Local\Programs\Python\Python311\Lib\site-packages\reportlab\platypus\paraparser.py", line 2779, in _syntax_error: [ValueError] ("\nparagraph text '<para># \\u83ef\\u5357\\u7522\\u7269\\u4fdd\\u96aa\\u80a1\\u4efd\\u6709\\u9650\\u516c\\u53f8<br>\\u8ca1\\u52d9\\u7cfb\\u7d71\\u512a\\u5316\\u5c08\\u6848<br><br><br><br>AR-S01_\\u61c9\\u6536\\u7968\\u64da<br>\\u4f7f\\u7528\\u8005\\u9a57\\u6536\\u6e2c\\u8a66\\u5831\\u544a</para>' caused exception paraparser: syntax error: No content allowed in br tag",)
+
+
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text 程式錯誤！
+File "C:\Users\david_lin\AppData\Local\Programs\Python\Python311\Lib\site-packages\reportlab\platypus\paraparser.py", line 2779, in _syntax_error: [ValueError] ("\nparagraph text '<para># \\u83ef\\u5357\\u7522\\u7269\\u4fdd\\u96aa\\u80a1\\u4efd\\u6709\\u9650\\u516c\\u53f8<br>\\u8ca1\\u52d9\\u7cfb\\u7d71\\u512a\\u5316\\u5c08\\u6848<br><br><br><br>AR-S01_\\u61c9\\u6536\\u7968\\u64da<br>\\u4f7f\\u7528\\u8005\\u9a57\\u6536\\u6e2c\\u8a66\\u5831\\u544a</para>' caused exception paraparser: syntax error: No content allowed in br tag",)
+
+
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text 程式錯誤！
+File "C:\Users\david_lin\AppData\Local\Programs\Python\Python311\Lib\site-packages\reportlab\platypus\paraparser.py", line 2779, in _syntax_error: [ValueError] ("\nparagraph text '<para># \\u83ef\\u5357\\u7522\\u7269\\u4fdd\\u96aa\\u80a1\\u4efd\\u6709\\u9650\\u516c\\u53f8<br>\\u8ca1\\u52d9\\u7cfb\\u7d71\\u512a\\u5316\\u5c08\\u6848<br><br><br><br>AR-S01_\\u61c9\\u6536\\u7968\\u64da<br>\\u4f7f\\u7528\\u8005\\u9a57\\u6536\\u6e2c\\u8a66\\u5831\\u544a</para>' caused exception paraparser: syntax error: No content allowed in br tag",)
+
+
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text 程式錯誤！
+File "C:\Users\david_lin\AppData\Local\Programs\Python\Python311\Lib\site-packages\reportlab\platypus\paraparser.py", line 2779, in _syntax_error: [ValueError] ("\nparagraph text '<para># \\u83ef\\u5357\\u7522\\u7269\\u4fdd\\u96aa\\u80a1\\u4efd\\u6709\\u9650\\u516c\\u53f8<br>\\u8ca1\\u52d9\\u7cfb\\u7d71\\u512a\\u5316\\u5c08\\u6848<br><br><br><br>AR-S01_\\u61c9\\u6536\\u7968\\u64da<br>\\u4f7f\\u7528\\u8005\\u9a57\\u6536\\u6e2c\\u8a66\\u5831\\u544a</para>' caused exception paraparser: syntax error: No content allowed in br tag",)
+
+
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A073
+比對值: 12A073
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A075
+比對值: 12A075
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考 C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx 確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+All Test Already Done
+get in core
+makeBrowser
+FBCM0100應收票據維護作業.xlsx : Start
+Action 1: web_connection
+Going to:https://apar.asgard.com.tw/fbcm0100
+Action 2: login
+登入成功
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fbcm0100
+Action 4: click
+Action 5: sleep_for_next_action
+Action 5: sleep_for_next_action 程式錯誤！
+File "<string>", line 1, in <module>: [NameError] ("name 'sleep_for_next_action' is not defined",)
+
+
+FBCM0100應收票據維護作業.xlsx : Done
+
+
+FEBM0100_銀行帳戶管理.xlsx : Start
+Action 1: login
+登入成功
+Action 2: sleep_for_next_action
+Action 2: sleep_for_next_action 程式錯誤！
+File "<string>", line 1, in <module>: [NameError] ("name 'sleep_for_next_action' is not defined",)
+
+
+FEBM0100_銀行帳戶管理.xlsx : Done
+
+
+fecm0100.xlsx : Start
+Action 1: report_text
+Action 2: report_text
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: web_connection
+Going to:https://apar.asgard.com.tw/login
+Action 5: key_in
+Action 6: key_in
+Action 7: click
+Action 8: wait_jump
+跳轉成功
+Action 9: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 10: click
+Action 11: sleep
+Action 12: report_text
+Action 13: report_text
+Action 14: pic
+Action 15: key_in
+Action 16: key_in
+Action 17: click
+Action 18: click
+Action 19: click
+Action 20: click
+Action 21: click
+Action 22: click
+Action 23: click
+Action 24: click
+Action 25: click
+Action 26: click
+Action 27: click
+Action 28: click
+Action 29: key_in
+Action 30: key_in
+Action 31: key_in
+Action 32: key_in
+Action 33: click
+Action 34: save_params_to
+Action 35: save_params_to
+Action 36: save_params_to
+Action 37: save_params_to
+Action 38: save_params_to
+Action 39: save_params_to
+Action 40: save_params_to
+Action 41: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 42: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 43: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 44: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 45: click
+Action 46: sleep
+Action 47: click
+Action 48: key_in
+Action 49: key_in
+Action 50: click
+Action 51: click
+Action 52: click
+Action 53: click
+Action 54: click
+Action 55: click
+Action 56: click
+Action 57: click
+Action 58: click
+Action 59: click
+Action 60: click
+Action 61: sleep
+Action 62: report_text
+Action 63: pic
+Action 64: compare
+頁面值: 12A075
+比對值: 12A075
+比對成功!
+Action 65: compare
+頁面值: 112/01/01
+比對值: 112/01/01
+比對成功!
+Action 66: compare
+頁面值: 120/12/31
+比對值: 120/12/31
+比對成功!
+Action 67: compare
+頁面值: 5,500
+比對值: 5,500.00
+比對失敗!
+Action 68: compare
+頁面值: 50,000
+比對值: 50,000.00
+比對失敗!
+Action 69: compare
+頁面值: 5,000
+比對值: 5,000.00
+比對失敗!
+Action 70: click
+Action 71: click
+Action 72: sleep
+Action 73: report_text
+Action 74: pic
+Action 75: compare
+頁面值: 556.00
+比對值: 556.00
+比對成功!
+Action 76: compare
+頁面值: 56
+比對值: 56
+比對成功!
+Action 77: compare
+頁面值: 500
+比對值: 500
+比對成功!
+Action 78: compare
+頁面值: 5,500
+比對值: 5,500
+比對成功!
+Action 79: key_in
+Action 80: tap
+Action 81: compare
+頁面值: 450.00
+比對值: 450.00
+比對成功!
+Action 82: compare
+頁面值: 45
+比對值: 45
+比對成功!
+Action 83: compare
+頁面值: 405
+比對值: 405
+比對成功!
+Action 84: compare
+頁面值: 5,405
+比對值: 5,405
+比對成功!
+Action 85: report_text
+Action 86: pic
+Action 87: click
+Action 88: sleep
+Action 89: click
+Action 90: compare
+頁面值: 5,405
+比對值: 5,405.00
+比對失敗!
+Action 91: click
+Action 92: click
+Action 93: click
+Action 94: sleep
+Action 95: click
+Action 96: report_text
+Action 97: pic
+Action 98: end
+fecm0100 測試不通過，請參考 C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp/errorlog.xlsx 確認錯誤內容。
+fecm0100.xlsx : Done
+
+
+fecm0100_20230113user_issue.xlsx : Start
+Action 1: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 2: login
+登入成功
+Action 3: web_connection
+Going to:https://apar.asgard.com.tw/fecm0100
+Action 4: click
+Action 5: key_in
+Action 6: save_as
+Action 6: save_as 程式錯誤！
+File "<string>", line 1, in <module>: [NameError] ("name 'save_as' is not defined",)
+
+
+fecm0100_20230113user_issue.xlsx : Done
+
+
+All Test Already Done

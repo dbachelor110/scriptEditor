@@ -1,0 +1,84 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1316.vd2290d3341a_f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>ScriptNameList</name>
+          <description>提供腳本清單以執行回歸測試。
+例如:
+[b123, m7766, fff99]</description>
+          <defaultValue>DefaultScriptNameList</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>10</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <hudson.triggers.TimerTrigger>
+          <spec>H/2 * * * *</spec>
+        </hudson.triggers.TimerTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3731.ve4b_5b_857b_a_d3">
+    <script>def pythonHome = &quot;C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311&quot;
+def scriptDir = &quot;D:/test app/自動化測試腳本編譯器/src/backend&quot;
+def scriptNameListString = params.ScriptNameList
+pipeline {
+    agent any
+
+    stages {
+        stage(&apos;Run Python Script&apos;) {
+            steps {
+                // 指定腳本所在的目錄
+                
+                // def scriptNameListString = params.ScriptNameList
+                // 使用 dir 步驟進入腳本目錄
+                dir(pythonHome) {
+                    echo &apos;Do Python&apos;
+                    bat &quot;&quot;&quot;
+                    python.exe &quot;${scriptDir}/DoTest.py&quot; ${scriptNameListString}
+                    &quot;&quot;&quot;
+                    echo &apos;Python Done&apos;
+                }
+            }
+        }
+    }
+    
+    post {
+        success {
+            echo &apos;success !&apos;
+            
+        }
+        //failure {
+        //    echo &apos;failed :(&apos;
+        //    build(job: &quot;EMAIL&quot;)
+        //}
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <authToken>123</authToken>
+  <disabled>false</disabled>
+</flow-definition>

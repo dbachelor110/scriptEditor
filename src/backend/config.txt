@@ -1,0 +1,14 @@
+domain,,,https://apar.asgard.com.tw/
+url,,,https://apar.asgard.com.tw/login
+username,,,admin
+password,,,123456
+username_locator,,,('xpath', '//input[@type="text"]')
+password_locator,,,('xpath', '//form/div[2]/div/div[2]/div/div/input')
+submit_locator,,,('xpath', '//form/div[3]/div/button')
+input_path,,,C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/測試案例/批量測試/要執行的
+error_path,,,C:/Users/david_lin/Documents/workDocument/autoTest/workSpace/範例腳本/測試腳本/coreTest/error_temp
+chromedriver_path,,,D:/localChrome/chromedriver-win64
+auto_update_driver,,,0
+headless,,,1
+browser,,,<selenium.webdriver.chrome.webdriver.WebDriver (session="703436401312347efe54f58bcd8c7431")>
+chrome_path,,,D:/localChrome/chrome-win64

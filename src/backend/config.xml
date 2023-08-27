@@ -1,0 +1,126 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1326.ve643e00e9220">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>ScriptNameList</name>
+          <description>提供腳本清單以執行回歸測試。
+例如:
+[b123, m7766, fff99]</description>
+          <defaultValue>[endTest,fecm0100是內容錯誤嗎.xlsx]</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>10</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3744.v6f2c0fe0e54d">
+    <script>import groovy.json.*
+import groovy.transform.Field
+
+def pythonHome = &quot;%PYTHON311%&quot;
+@Field def scriptDir = &quot;C:/serverplace/test app/自動化測試腳本編譯器/src/backend&quot;
+def scriptNameListString = params.ScriptNameList
+@Field def randomID = UUID.randomUUID().toString().substring(0, 8)
+@Field def tempJsonPath = &quot;&quot;&quot;${scriptDir}/temp/${randomID}.json&quot;&quot;&quot;
+
+
+@Field def pythonResult
+
+def setPyResult(){
+    def jsonSlurper = new JsonSlurperClassic()
+    pythonResult = jsonSlurper.parseText(new File(&quot;&quot;&quot;${tempJsonPath}&quot;&quot;&quot;).getText(&quot;UTF-8&quot;))
+}
+
+pipeline {
+    agent any
+
+    stages {
+        stage(&apos;Run Python Script&apos;) {
+            steps {
+                // 使用 dir 步驟進入 python 目錄
+                script {
+                    echo &apos;Do Python&apos;
+                    bat &quot;&quot;&quot;
+                    ${pythonHome}/python.exe &quot;${scriptDir}/DoTest.py&quot; ${scriptNameListString} ${randomID}
+                    &quot;&quot;&quot;
+                    echo &apos;Python Done&apos;
+                }
+                
+            }
+        }
+        stage(&apos;Read Result&apos;) {
+            steps {
+                echo &apos;Read Json&apos;
+                script {
+                    setPyResult()
+                    echo &quot;&quot;&quot;Get Json ${pythonResult}&quot;&quot;&quot;
+                    echo &quot;Delete Temp Json&quot;
+                    bat &apos;Del &quot;${tempJsonPath}&quot;&apos;
+                }
+                
+            }
+        }
+        stage(&apos;core&apos;) {
+            steps {
+                script{
+                    if(pythonResult[&apos;core&apos;].failed){
+                        error &quot;core run failed&quot;
+                    }else{
+                        echo &apos;core run successfully&apos;
+                    }
+                }
+            }
+        }
+        stage(&apos;endTest&apos;) {
+            steps {
+                script{
+                    if(pythonResult.endTest.failed){
+                        error &quot;endTest run failed&quot;
+                    }else{
+                        echo &apos;endTest run successfully&apos;
+                    }
+                }
+            }
+        }
+        stage(&apos;fecm0100是內容錯誤嗎.xlsx&apos;) {
+            steps {
+                script{
+                    if(pythonResult[&quot;fecm0100是內容錯誤嗎&quot;].failed){
+                        error &quot;fecm0100是內容錯誤嗎.xlsx run failed&quot;
+                    }else{
+                        echo &apos;fecm0100是內容錯誤嗎.xlsx run successfully&apos;
+                    }
+                }
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <authToken>123</authToken>
+  <disabled>false</disabled>
+</flow-definition>

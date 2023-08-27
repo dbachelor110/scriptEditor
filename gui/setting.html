@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<!--  -->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./all.min.css') }}">
+    <!-- 引用自定義 CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./customTool.css') }}">
+</head>
+<body>
+
+    <div class="font-monospace"><!-- 待補充響應式設計 -->
+        <div class="mx-2 row">
+            <div class="col">
+                <div class="row  mt-4 mb-2 justify-content-center">
+                    <div class="col-1">
+                        <div class="item mr-auto mt-auto">
+                            <!-- <button id="set" class="btn btn-primary btn-ss" type="button">{{viewText.setBtn}}</button> -->
+                            <label class="btn btn-ss border border-dark">
+                                <button id="set" type="button" style="display:none;"></button>
+                                <i class="fa-solid fa-gear fa-7x"></i>
+                                <!-- vertical-align 預設為 .225em ，對 icon folder 來說過高。需使用 style 來調整，目前設為 .1em -->
+                            </label>
+                            <!-- <button id="set" class="btn btn-primary btn-ss" type="button"><img src="svg/caret-up-solid.svg" alt="Chang Window"></button> -->
+
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="item">
+                            <h1 class="fs-4 fw-bolder text-center">{{viewText.title}}</h1>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div id="setItem" class="row justify-content-center"
+                    style="display:none; overflow-y: overlay; height: 30rem;">
+                    <div class="setItem temp" style="display:none;">{{setItem}}</div>
+                </div>
+                <div id="testItem" class="row justify-content-center align-items-start" style="height: 30rem;">
+                    <!-- viewItem 可以看到所有檔案，裡面有開始測試按鈕 -->
+                    <div id="viewItem" class="row justify-content-center">
+                        <div class="testItem temp" style="display:none;">{{testItem}}</div>
+                    </div>
+                    <!-- editItem 可以編輯 script 內容 -->
+                    <div id="editItem" class="row justify-content-center" style="display:none;">
+                        <div id="editFrame" class="col-8  border border-black border-bottom-0 rounded-top-3">
+                            <!-- title -->
+                            <div class="head row col-12 mx-0 my-2 px-0 justify-content-center">
+
+                                <!-- scriptName -->
+                                <div id="scriptName" class="col-10 px-0 item"></div>
+
+                                <!-- 製作一個關閉按鈕 -->
+                                <div class="col-2 item pe-0 ps-4">
+                                    <label class="btn btn-ss px-0 ms-3">
+                                        <button class="close" style="display:none;"></button>
+                                        <i class="fa-solid fa-xmark fa-6x"></i>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- scriptArea 呈現 script 的內容-->
+                            <div id="scriptArea" class="item row col-12 justify-content-center mx-0 rounded-1"
+                                style="overflow-y: overlay; height: 27.25rem;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        window.token = '{{ token }}';
+    </script>
+    <script type="module" src="{{ url_for('static', filename='./main.js') }}{{ver}}"></script>
+    <!-- <script type="module" src="{{ url_for('static', filename='./main.js') }}"></script> -->
+</body>
+</html>

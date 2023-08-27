@@ -1,0 +1,172 @@
+click: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+    },
+    directions: `點擊定位的元素`
+},
+mclick: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+        4: { name: `等待時間`, type: `float`, required: false }
+    },
+    directions: `模擬滑鼠點擊行為，輸入等待時間以等待事件完成。`
+},
+mdbclick: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+    },
+    directions: `模擬滑鼠雙擊定位的元素。`
+},
+
+key_in: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+        4: { name: `填入字串`, type: `string`, required: false },
+        5: { name: `是否為時間`, type: `boolean`, required: false },
+        6: { name: `填入變數`, type: `string`, required: false },
+        // 4 與 6 是則一填寫的欄位，因此可用邏輯處理成一個欄位，簡化撰寫流程。比如先比較字串是否為變數名，設定強制轉字串字符或按鈕等等。
+    },
+    directions: `可填入字串值，或者是填入利用 save_params_to 儲存的變數值。另外需要標示是否為時間欄位，避免造成程式執行錯誤。`
+},
+
+key_in_table: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+        4: { name: `填入字串`, type: `string`, required: false },
+        6: { name: `填入變數`, type: `string`, required: false },
+        // 4 與 6 是則一填寫的欄位，因此可用邏輯處理成一個欄位，簡化撰寫流程。比如先比較字串是否為變數名，設定強制轉字串字符或按鈕等等。
+    },
+    directions: `可在表格中填入字串值，或者是填入利用 save_params_to 儲存的變數值。`
+},
+
+tap: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+        4: { name: `特殊鍵名稱`, type: `string`, required: true },
+        5: { name: `特殊鍵名稱`, type: `string`, required: false },
+        // 可直接合併為一個欄位，用自串解析的方式區分不同特殊鍵。
+    },
+    directions: `可以模擬輸入特殊鍵，如 tab enter 等等。`
+},
+
+select: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+        4: { name: `選擇值`, type: `string`, required: true },
+    },
+    directions: `選取下拉選單中的選項。`
+},
+
+save_params_to: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+        6: { name: `參數名稱`, type: `string`, required: true },
+    },
+    directions: `將目標元素的 text or attribute 以參數名稱儲存。`
+},
+
+compare: {
+    var: {
+        element: { name: ``, type: `element`, required: true },
+        2: { name: `定位方式`, type: `string`, required: true },
+        3: { name: `定位字串`, type: `string`, required: true },
+        4: { name: `比較值`, type: `string`, required: false },
+        6: { name: `比較參數`, type: `string`, required: false },
+        // 4 與 6 是則一填寫的欄位，因此可用邏輯處理成一個欄位，簡化撰寫流程。比如先比較字串是否為變數名，設定強制轉字串字符或按鈕等等。
+    },
+    directions: `將目標元素的 text or attribute 與比較值或比較參數進行比較。`
+},
+
+login: {
+    var: {},
+    directions: `根據設定資料進行登入行為。`
+},
+web_connection: {
+    var: {
+        5: { name: `連線網址`, type: `string`, required: true }
+    },
+    directions: `與 admin 合成完整網址。`
+},
+wait_jump: {
+    var: {
+        5: { name: `原始網址`, type: `string`, required: true }
+    },
+    directions: `與 admin 合成完整網址。`
+},
+function: {
+    var: {
+        2: { name: `自定義方法名稱`, type: `string`, required: true },
+        3: { name: `變數 1`, type: `string`, required: false },
+        4: { name: `變數 2`, type: `string`, required: false },
+        5: { name: `變數 3`, type: `string`, required: false },
+        6: { name: `變數 4`, type: `string`, required: false }
+    },
+    directions: `需填自定義方法名稱, 與變數 1 ~ 4 。`
+},
+sleep: {
+    var: {
+        4: { name: `等待時間`, type: `float`, required: false }
+    },
+    directions: `單位 : 秒, 預設 1 秒。`
+},
+report_text: {
+    var: {
+        4: { name: `文字段落`, type: `string`, required: false },
+    },
+    directions: `可在報表中加入文字段落。`
+},
+
+switch: {
+    var: {},
+    directions: `透過切換到下一個 window_handle ，將控制目標切換到彈出視窗。`
+},
+
+backto: {
+    var: {
+        4: { name: `關閉彈出視窗`, type: `string`, required: false },
+        // 建議改成按鈕
+    },
+    directions: `從彈出視窗返回主頁面，可輸入 yes 來關閉彈出視窗。`
+},
+
+load_params: {
+    var: {
+        6: { name: `參數名稱`, type: `string`, required: true },
+    },
+    directions: `從已儲存的參數取得值。`
+},
+
+pic: {
+    var: {},
+    directions: `儲存螢幕截圖。`
+},
+
+scroll: {
+    var: {
+        element: { name: `滾動元素`, type: `element`, required: false },
+        4: { name: `捲動橫軸`, type: `float`, required: true },
+        5: { name: `捲動縱軸`, type: `float`, required: true },
+    },
+    directions: `捲動指定滾動元素的捲軸，無指定時，滾動整個頁面視窗。輸入捲動比例來捲動卷軸， 0 代表最左或最上， 1 代表最右或最下。`
+},
+
+end: {
+    var: {},
+    directions: `結束測試流程。`
+},

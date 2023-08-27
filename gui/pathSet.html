@@ -1,0 +1,99 @@
+<div class="row justify-content-center mt-5 d-flex align-items-end">
+    <h2 class="col-8 fs-5 text">Path</h2>
+</div>
+{% for key ,data in setInformation.path.items() %}
+<!-- 迭代 setInformation.path.items() 製作設定 path 的欄位 -->
+<div class="row justify-content-center my-1 d-flex align-items-end item config path" name="{{data.name}}" key="{{key}}">
+    <div class="col-7">
+        <div class="item text-left">
+            <div class="fs-6 text item show" name="{{data.name}}" key="{{key}}" path="{{data.value}}"></div>
+        </div>
+    </div>
+    <div class="col-1">
+        <div class="item">
+            <label class="btn btn-primary btn-ss">
+                <!-- <button class="functionPoint" key="{{key}}" style="display:none;" configType="path" onclick="pathConfig(event)"></button> -->
+                <button class="functionPoint" key="{{key}}" style="display:none;" configType="path"></button>
+                <!-- vertical-align 預設為 .225em ，如需要垂直調整可透過 style 屬性來調整，數值越多 icon 越高 -->
+                <i class="fa-regular fa-folder fa-6x"></i>
+            </label>
+        </div>
+    </div>
+</div>
+{% endfor %}
+<div class="row justify-content-center mt-5 d-flex align-items-end">
+    <h2 class="col-8 fs-5 text ">Driver</h2>
+</div>
+<div class="row d-flex justify-content-center mt-2 mb-1 px-3 align-items-end ">
+{% for key ,data in setInformation.driverSet.items() %}
+<!-- 迭代 setInformation.driverSet.items() 製作設定 driver 的欄位 -->
+    <div class="col-4 form-check ps-4b item config driverSet" name="{{data.name}}" key="{{key}}">
+        {% if data.value == '1' %}
+        <!-- <input class="form-check-input radio radio-ss functionPoint" type="checkbox" key="{{key}}" id="{{key}}Check"  configType="driverSet" onclick="main.driverConfig(event)" checked> -->
+        <input class="form-check-input radio radio-ss functionPoint" type="checkbox" key="{{key}}" id="{{key}}Check"  configType="driverSet" checked>
+        <label class="fs-6 form-check-label" for="{{key}}Check" name0="{{data.name.name0}}" name1="{{data.name.name1}}">{{data.name.name1}}</label>
+        {% else %}
+        <!-- <input class="form-check-input radio radio-ss functionPoint" type="checkbox" key="{{key}}" id="{{key}}Check"  configType="driverSet" onclick="main.driverConfig(event)"> -->
+        <input class="form-check-input radio radio-ss functionPoint" type="checkbox" key="{{key}}" id="{{key}}Check"  configType="driverSet">
+        <label class="fs-6 form-check-label" for="{{key}}Check" name0="{{data.name.name0}}" name1="{{data.name.name1}}">{{data.name.name0}}</label>
+        {% endif %}
+        
+    </div>
+{% endfor %}
+</div>
+<div class="row justify-content-center mt-5 d-flex align-items-end">
+    <h2 class="col-8 fs-5 text ">Login</h2>
+</div>
+{% for key ,data in setInformation.userInformation.items() %}
+<!-- 迭代 setInformation.userInformation.items() 製作設定 登入資訊 的欄位 -->
+<div class="row justify-content-center my-1 d-flex align-items-end item config userInformation" name="{{data.name}}" key="{{key}}">
+    <div class="col-2">
+        <div class="item text-left">
+            <div class="fs-6 text label" >{{data.name}}</div>
+        </div>
+    </div>
+    <div class="col-5">
+        <div class="item show">
+            <input id="{{key}}Input" class="fs-6 form-control border-primary p-1s" type="text" value="{{data.value}}">
+        </div>
+    </div>
+    <div class="col-1">
+        <div class="item editBtn">
+            <label class="btn btn-primary btn-ss">
+                <!-- <button class="functionPoint" key="{{key}}" style="display:none;"  configType="userInformation" onclick="textConfig(event)"></button> -->
+                <button class="functionPoint" key="{{key}}" style="display:none;"  configType="userInformation"></button>
+                <!-- vertical-align 預設為 .225em ，如需要垂直調整可透過 style 屬性來調整，數值越多 icon 越高 -->
+                <i class="fa-solid fa-pen fa-6x"></i>
+            </label>
+        </div>
+    </div>
+</div>
+{% endfor %}
+<div class="row justify-content-center mt-5 d-flex align-items-end">
+    <h2 class="col-8 fs-5 text ">XPath</h2>
+</div>
+{% for key ,data in setInformation.elementLocator.items() %}
+<!-- 迭代 setInformation.elementLocator.items() 製作設定 登入相關元素的 XPath 的欄位 -->
+<div class="row justify-content-center my-1 d-flex align-items-end item config elementLocator" name="{{data.name}}" key="{{key}}">
+    <div class="col-2">
+        <div class="item text-left">
+            <div class="fs-6 text label" >{{data.name}}</div>
+        </div>
+    </div>
+    <div class="col-5">
+        <div class="item show">
+            <input class="fs-6 form-control border-primary p-1s" type="text" value="{{data.value}}" readonly>
+        </div>
+    </div>
+    <div class="col-1">
+        <div class="item editBtn">
+            <label class="btn btn-primary btn-ss">
+                <!-- <button class="functionPoint" key="{{key}}" style="display:none;"  configType="elementLocator" onclick="elementConfig(event)"></button> -->
+                <button class="functionPoint" key="{{key}}" style="display:none;"  configType="elementLocator"></button>
+                <!-- vertical-align 預設為 .225em ，如需要垂直調整可透過 style 屬性來調整，數值越多 icon 越高 -->
+                <i class="fa-solid fa-globe fa-6x"></i>
+            </label>
+        </div>
+    </div>
+</div>
+{% endfor %}

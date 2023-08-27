@@ -1,0 +1,147 @@
+body {
+    font-size: 14pt;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+.p-1s {
+    padding: 0.05rem 0.45rem!important;
+}
+
+.btn-ss{
+    --bs-btn-padding-y: 0.125rem;
+    --bs-btn-padding-x: 0.5rem;
+    --bs-btn-font-size: 0.12rem;
+    --bs-btn-border-radius: var(--bs-border-radius-sm);
+}
+
+.ps-4b{
+    padding-left: 2.5rem!important;
+}
+
+.radio-ss{
+    width: 0.7em!important;
+    height: 0.7em!important;
+    margin-top: 0.5em!important;
+}
+
+.list-ss{
+    font-size: 0.8rem!important;
+    --bs-list-group-item-padding-x: 0.4rem!important;
+    --bs-list-group-item-padding-y: 0.1rem!important;
+}
+.likefocus {
+    outline: 0.15rem solid rgba(var(--bs-primary-rgb),var(--bs-border-opacity))!important;
+}
+
+.hidefocus:focus-visible {
+    /* 用 outline ，可以製造不影響版面的邊框寬度變化效果，否則會改變元素大小*/
+    outline: none!important;
+}
+
+.border-primary:focus-visible {
+    /* 用 outline ，可以製造不影響版面的邊框寬度變化效果，否則會改變元素大小*/
+    outline: 0.1rem solid rgba(var(--bs-primary-rgb),var(--bs-border-opacity))!important;
+}
+
+.item.show > input.form-control.border-primary:focus {
+    /* 改 focus 時的邊框顏色 */
+    border-color: rgba(var(--bs-primary-rgb),var(--bs-border-opacity));
+
+    /* 用 box-shadow: [x 偏移] [y 偏移] [漸層寬度] [陰影寬度] [顏色] ，可以製造不影響版面的邊框寬度變化效果，否則會改變元素大小*/
+    box-shadow:0 0 0 0.1rem rgba(var(--bs-primary-rgb),var(--bs-border-opacity)), 0 0 0 0.15rem rgba(13,110,253,.25);
+}
+
+.radio:checked[type=checkbox]{
+    --radio-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+.radio{
+    border-radius: 50% !important;
+    background-image: var(--radio-bg-image)!important;
+}
+
+/* 捲軸底 */
+::-webkit-scrollbar-track {
+    background:transparent;
+}
+
+/* 捲軸寬度 */
+::-webkit-scrollbar {
+    overflow: visible;
+    width: 0.7rem;
+}
+
+/* 捲軸本體(正常) */
+::-webkit-scrollbar-thumb {
+    background: var(--bs-secondary-bg); 
+    border-radius: 0.2rem;
+}
+
+/* 捲軸本體(游標接觸) */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bs-primary);
+}
+
+/* 捲軸本體(游標點擊) */
+::-webkit-scrollbar-thumb:active {
+    background: var(--bs-link-color);
+}
+
+/* 捲軸上下按鈕 */
+::-webkit-scrollbar-button:single-button {
+    background:transparent;
+    display: block;
+    border-style: solid;
+    height: 0.7rem;
+}
+
+/* 捲軸往上按鈕 */
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background: url('./svg/caret-up.svg') no-repeat;
+    background-size: 100% 100%;
+    border: 0;
+    width: 0.7rem;
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    background: url('./svg/caret-up-hover.svg') no-repeat;
+    background-size: 100% 100%;
+    border: 0;
+    width: 0.7rem;
+}
+
+
+/* 捲軸往下按鈕 */
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    background: url('./svg/caret-down.svg') no-repeat;
+    background-size: 100% 100%;
+    border: 0;
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment:hover {
+    background: url('./svg/caret-down-hover.svg') no-repeat;
+    background-size: 100% 100%;
+    border: 0;
+    width: 0.7rem;
+}
+
+#scriptArea::-webkit-scrollbar {
+    overflow: visible;
+    width: 0;
+}
+
+div.action div.number {
+    text-align-last: end;
+    padding-top: 0.1rem!important;
+    padding-right: 0.7rem!important;
+    padding-left: 0rem!important;
+    margin-top: .25rem!important;
+}
+
+/* div.action::before {
+    content: '';
+    width: 1rem;
+} */

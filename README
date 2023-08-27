@@ -1,0 +1,19 @@
+架構圖
++---自動化測試腳本編譯器
+|   |   README
+|   |   requirements.txt // 紀錄安裝那些 python 庫。
+|   +---gui // 存放介面資源，包括 html css js svg webfonts 。
+|       |   setting.html // 主頁面 html 。
+|       |   其餘 html css js 檔案
+|       +---svg // 存放 svg 圖檔。
+|       +---webfonts // 存放 webfonts 檔案。
+|   +---src
+|       +---backend
+|           |   core.py // 測試主程式。
+|           |   api.py // 負責從資料庫取得資料，並轉成前端可接受的型態。
+|           |   server.py // 負責運轉暫時的本機伺服器，以接收 gui 發送的資料請求。
+|           |                同時擔任控制中樞的角色，將 gui 發送的資料請求指派給對應的 api 程式處理，並將結果傳遞回 gui 。
+|           |   webElementSelect.py // api 分支程式，會開啟新視窗，透過點擊方式取得 xpath。考慮整合到 api 中。
+|           |   main.py // 整個應用程式的進入點，會 server 伺服器，並開啟 gui 介面。
+|       +---frontend
+|           |   actions.txt // 紀錄目前每一種測試行為的資料。

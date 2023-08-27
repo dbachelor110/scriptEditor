@@ -1,0 +1,40 @@
+<div class="row justify-content-center px-0 col-8  my-4 border border-primary rounded-1" style="height: 250px; overflow-y: overlay;">
+    <div class="list-group col fs-6 pe-0 rounded-0 item">
+        {% for script in scriptList %}
+        <a href="#" class="list-group-item list-group-item-action list-ss">{{script}}</a>
+        {% endfor %}
+    </div>
+</div>
+<div class="row item  justify-content-center">
+    <button class="btn btn-primary col-2 fs-6 mx-2" id="start">Start Test</button>
+    <button class="btn btn-primary col-3 fs-6 mx-2" id="regression" data-bs-toggle="modal" data-bs-target="#regressionModal">
+        Regression
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="regressionModal" tabindex="-1" aria-labelledby="regressionModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="regressionModalLabel">Regression</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="item col-3 label">
+                        <div class="fs-6 text label" >排程週期</div>
+                    </div>
+                    <div class="item col-8 input">
+                        <input id="regressionInput" class="fs-6 form-control border-primary p-1s" type="text" value="* * * * *">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-primary" id="regressionSubmit" data-bs-dismiss="modal">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
